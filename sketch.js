@@ -73,6 +73,7 @@ let instr3 = [
 let fate = instr3;
 let count = 1;
 let pressed = false;
+
 function setup() {
   createCanvas(800, 800);
   angleMode(DEGREES);
