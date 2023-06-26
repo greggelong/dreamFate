@@ -94,7 +94,7 @@ function draw() {
   if (pressed){
     fill(0,255,0)
     noStroke();
-    textSize(20);
+    textSize(40);
     text("PRESSED", 30, 60);
 
   }
@@ -102,12 +102,12 @@ function draw() {
   if (fate ===instr3) {
     fill(255, 255, 0);
     noStroke();
-    textSize(20);
+    textSize(40);
     text("Press to choose fate!", 30, 100);
   } else if(fate !==instr3){
     fill(255, 0, 0);
     noStroke();
-    textSize(20);
+    textSize(40);
     text("Press to reset fate!", 30, 100);
   }
   offset = sin(count);
