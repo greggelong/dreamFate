@@ -74,7 +74,7 @@ let fate = instr3;
 let count = 1;
 let pressed = false;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 800);
   angleMode(DEGREES);
   greg = new Gurtle(width / 3.5, height - 35, color(167, 173, 186));
   yuan = new Gurtle(width - width / 3.5, height - 35, color(192, 197, 206));
